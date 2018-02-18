@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_padding_vertical"
+    android:paddingBottom="@dimen/activity_padding_vertical"
+    android:paddingRight="@dimen/activity_padding_horizontal"
+    android:paddingLeft="@dimen/activity_padding_horizontal"
+    tools:context="com.studycase.vanard.vianrasyiddiyatma_1202154186_modul2.DineInActivity">
+
+    <TextView
+        android:id="@+id/text_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Customer:"
+        android:textSize="@dimen/text_size"
+        android:layout_marginBottom="@dimen/activity_padding_vertical"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_below="@id/text_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nama"
+        android:layout_marginBottom="@dimen/activity_padding_vertical"/>
+    <TextView
+        android:id="@+id/no_meja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_nama"
+        android:text="@string/no_meja"
+        android:layout_marginRight="@dimen/activity_padding_vertical"/>
+    <Spinner
+        android:id="@+id/labels_meja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_nama"
+        android:layout_toRightOf="@id/no_meja"
+        android:layout_marginBottom="@dimen/activity_padding_vertical">
+    </Spinner>
+    <Button
+        android:id="@+id/pilih_pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_pilih_pesanan"
+        android:layout_below="@id/labels_meja"
+        android:layout_centerHorizontal="true"
+        android:onClick="pesan"/>
+
+</RelativeLayout>

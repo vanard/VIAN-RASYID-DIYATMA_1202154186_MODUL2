@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_padding_vertical"
+    android:paddingBottom="@dimen/activity_padding_vertical"
+    android:paddingRight="@dimen/activity_padding_horizontal"
+    android:paddingLeft="@dimen/activity_padding_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.studycase.vanard.vianrasyiddiyatma_1202154186_modul2.TakeAwayActivity">
+
+    <TextView
+        android:textSize="@dimen/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/identitas_pemesanan"
+        android:layout_marginBottom="@dimen/activity_padding_vertical"/>
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nama"
+        android:layout_marginBottom="@dimen/activity_padding_vertical"/>
+    <EditText
+        android:id="@+id/edit_hp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nomor_hp"
+        android:layout_marginBottom="@dimen/activity_padding_vertical"/>
+    <EditText
+        android:id="@+id/edit_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_alamat"
+        android:layout_marginBottom="@dimen/activity_padding_vertical"/>
+    <EditText
+        android:id="@+id/edit_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_catatan"
+        android:layout_marginBottom="@dimen/activity_padding_vertical"/>
+    <Button
+        android:id="@+id/pilih_pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_pilih_pesanan"
+        android:onClick="pesan"/>
+
+</LinearLayout>

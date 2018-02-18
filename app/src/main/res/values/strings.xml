@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">VIANRASYIDDIYATMA_1202154186_MODUL2</string>
+    <string name="nama_nim">VIAN RASYID DIYATMA_1202154186</string>
+    <string name="pilih_menu">Pilih Menu:</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
+    <string name="no_meja">No. Meja:</string>
+    <string name="identitas_pemesanan">Identitas Pemesanan:</string>
+    <string name="hint_nama">Nama</string>
+    <string name="hint_nomor_hp">Nomor HP</string>
+    <string name="hint_alamat">Alamat</string>
+    <string name="hint_catatan">Catatan</string>
+    <string name="button_pilih_pesanan">Pilih Pesanan</string>
+    <string name="komposisi">Komposisi:</string>
+    <string name="pilih_menu_dulu">Pilih Menu Dahulu</string>
+    <string name="title_activity_detail">Detail Activity</string>
+
+    <string-array name="labels_meja">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+        <item>Meja 6</item>
+        <item>Meja 7</item>
+        <item>Meja 8</item>
+        <item>Meja 9</item>
+        <item>Meja 10</item>
+    </string-array>
+
+    <string-array name="menu_makanan">
+        <item>Bakso</item>
+        <item>Bubur Ayam</item>
+        <item>Gado-gado</item>
+        <item>Gudeg</item>
+        <item>Nasi Goreng</item>
+        <item>Nasi Padang</item>
+        <item>Opor Ayam</item>
+        <item>Pempek</item>
+        <item>Rawon</item>
+        <item>Rendang</item>
+        <item>Sate Daging</item>
+        <item>Sop Buntut</item>
+        <item>Sop Konro</item>
+        <item>Soto</item>
+    </string-array>
+
+    <string-array name="harga_makanan">
+        <item>9.000</item>
+        <item>8.000</item>
+        <item>11.000</item>
+        <item>14.000</item>
+        <item>13.000</item>
+        <item>15.000</item>
+        <item>17.000</item>
+        <item>5.000</item>
+        <item>16.000</item>
+        <item>12.000</item>
+        <item>18.000</item>
+        <item>15.500</item>
+        <item>17.500</item>
+        <item>12.500</item>
+    </string-array>
+
+    <string-array name="resep">
+        <!--bakso-->
+        <item>
+            Daging sapi kg, giling.
+            Tepung kanji 50 g.
+            Telur 1 butir.
+            Lada bubuk sdt.
+            Garam 1 sdt.
+            Bawang putih 4 siung, haluskan.
+            Es batu 40 g, hancurkan.
+            Air 2 L.
+        </item>
+        <!--bubur ayam-->
+        <item>
+            2 centong nasi
+            1 lt air
+            200 ml kaldu ayam/sapi
+            1/2 sdt bawang putih bubuk
+            Garam
+            Sejumput merica bubuk
+            Sejumput gula pasir
+            3-5 buncis (atau 1 buah wortel)
+            Pelengkap :
+            Bawang merah goreng
+            Ayam goreng disuwir²
+            Abon
+        </item>
+        <!--gadogado-->
+        <item>
+            Kacang panjang
+            Toge(karna ga ada saya pakai kol)
+            Bayam
+            Telur
+            Tahu
+            Tempe
+            Timun
+            Sambal kacang:
+            Kacang tanah yg di goreng
+            Jeruk limo
+            Cabai
+            Terasi
+            Air asam
+        </item>
+        <!--gudeg-->
+        <item>
+            1 kg nangka muda
+            Santan dari 1 butir kelapa parut
+            150 gram gula merah
+            secukupnya Garam
+            Bumbu halus :
+            50 gram bawang merah
+            4 siung bawang putih
+            8 butir kemiri
+            1 sdt ketumbar
+            Bumbu rempah :
+            6 lembar daun salam
+            3 cm lengkuas geprek
+            2 batang serai geprek
+            3 lembar daun jeruk purut, sobek"
+        </item>
+        <!--nasi goreng-->
+        <item>
+            Nasi 600 gr,
+            Daging ayam 125 g.Cincang halus
+            Telur 1 butir. Kocok
+            Bawang merah 5 siung
+            Bawang putih 3 siung
+            Cabai merah 3 buah
+            Daun bawang 1 batang. Iris halus
+            Kecap manis 2 sdm
+            Garam 1 sdt
+            Merica sdt
+            Minyak
+        </item>
+        <!--nasi padang-->
+        <item>
+            2 telur (kocok lepas)
+            1 buah tomat (diiris)
+            Secukupnya kecap
+            1 sdt lada bubuk
+            1 sdt royco
+            Sepotong kubis (diiris lembut)
+            Secukupnya minyak goreng
+            Bumbu halus:
+            3 siung bawang putih
+            8 cabe merah kriting
+            5 cabe rawit
+            Secukupnya garam
+            Bumbu pelengkap :
+            Bawang merah diiris
+            Daun bawang diiris
+            Daun seledri diiris
+            iris Mentimun
+        </item>
+        <!--oppor ayam-->
+        <item>
+            1/2 ekor ayam
+            1 bks kara kecil
+            1 bks masako sapi
+            1 ruas salam
+            secukupnya daun jeruk
+            secukupnya daun salam
+            10 bh cabe rawit utuh
+            secukupnya gula pasir
+            secukupnya air
+            Bumbu Halus :
+            5 siung bawang merah
+            4 siung bawang putih
+            2 ruas kunyit
+            1 ruas jahe
+            1 ruas lengkuas
+            1 sdt ketumbar bubuk
+            1 sdt lada bubuk
+            1 bh jeruk nipis
+            secukupnya bawang goreng
+        </item>
+        <!--pempek-->
+        <item>
+            250 ml santan
+            130 gram tepung terigu
+            1/5 sdt garam
+            1 sdt gula
+            1 sdt kaldu bubuk (saya pakai totole)
+            200 gram tapioka/ sagu tani
+            2 buah telur
+            5 siung bawang putih (haluskan)
+            Bahan Cuko
+            1 buah gula merah cuko (yg hitam)/ 4 buah gula merah biasa
+            1 bks asam jawa
+            10 siung bawang putih
+            8 cabe rawit hijau
+            1/2 sdt garam
+        </item>
+
+        <item>
+            unknown
+        </item>
+        <item>
+            unknown
+        </item>
+        <item>
+            unknown
+        </item>
+        <item>
+            unknown
+        </item>
+        <item>
+            unknown
+        </item>
+
+        <!--soto-->
+        <item>
+            1 kg Ayam
+            8 butir bawang merah
+            6 siung bawang putih
+            2 sendok teh ketumbar
+            1/2 sendok teh merica
+            3 butir kemiri
+            5 lembar daun jeruk
+            3 lembar daun salam
+            1 ruas lengkuas/laos
+            1 ruas jahe
+            2 batang sereh
+            3 sendok teh garam
+            3/4 sendok teh kaldu bubuk
+        </item>
+        <item>
+
+        </item>
+    </string-array>
+</resources>
